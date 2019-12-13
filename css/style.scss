@@ -180,53 +180,69 @@ h2 {
 .header-nav {
   display: flex;
   align-items: center;
-  width: 180px;
+  padding: 10px 30px 0 0;
 }
 .header-nav__mail {
-  opacity: 0.2;
-  img {
-    width: 25px;
-    cursor: pointer;
-  }
-}
-.header-nav__subscribe {
-  cursor: pointer;
-  margin-left: 20px;
   position: relative;
-  span {
-    position: absolute;
-    border-radius: 3px;
-    top: -7px;
-    right: -6px;
-    background: #2f91aa;
-    font-size: 10px;
-    color: #fff;
-    display: block;
-    padding: 1px 3px;
-  }
+  cursor: pointer;
   img {
-    opacity: 0.2;
     width: 20px;
-    cursor: pointer;
-  }
-}
-.header-nav__auth {
-  margin-left: 20px;
-  img {
-    opacity: 0.2;
-    width: 20px;
-    cursor: pointer;
+    opacity: 0.3;
   }
   span {
     position: absolute;
     border-radius: 3px;
     top: -7px;
     right: -6px;
-    background: #2f91aa;
+    background: #fec22b;
     font-size: 10px;
     color: #fff;
     display: block;
     padding: 1px 3px;
 
+  }
+}
+.header-nav__subscribe {
+  cursor: pointer;
+  margin-left: 30px;
+  position: relative;
+  img {
+    opacity: 0.3;
+    width: 16px;
+    cursor: pointer;
+  }
+  span {
+    position: absolute;
+    border-radius: 3px;
+    top: -7px;
+    right: -6px;
+    background: #2f91aa;
+    font-size: 10px;
+    color: #fff;
+    display: block;
+    padding: 1px 3px;
+  }
+}
+.header-nav__auth {
+  margin-left: 30px;
+  img {
+    opacity: 0.3;
+    width: 15px;
+    cursor: pointer;
+  }
+  span {
+    font-size: 15px;
+    font-weight: 600;
+    opacity: 0.3;
+    color: #000;
+  }
+}
+.header-nav__profile {
+  margin-top: -8px;
+  display: flex;
+  align-items: center;
+  img {
+    width: 40px;
+    border-radius: 50%;
   }
 }

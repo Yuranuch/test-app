@@ -152,18 +152,33 @@ h2 {
 .header-nav {
   display: flex;
   align-items: center;
-  width: 180px; }
+  padding: 10px 30px 0 0; }
 
 .header-nav__mail {
-  opacity: 0.2; }
+  position: relative;
+  cursor: pointer; }
   .header-nav__mail img {
-    width: 25px;
-    cursor: pointer; }
+    width: 20px;
+    opacity: 0.3; }
+  .header-nav__mail span {
+    position: absolute;
+    border-radius: 3px;
+    top: -7px;
+    right: -6px;
+    background: #fec22b;
+    font-size: 10px;
+    color: #fff;
+    display: block;
+    padding: 1px 3px; }
 
 .header-nav__subscribe {
   cursor: pointer;
-  margin-left: 20px;
+  margin-left: 30px;
   position: relative; }
+  .header-nav__subscribe img {
+    opacity: 0.3;
+    width: 16px;
+    cursor: pointer; }
   .header-nav__subscribe span {
     position: absolute;
     border-radius: 3px;
@@ -174,26 +189,25 @@ h2 {
     color: #fff;
     display: block;
     padding: 1px 3px; }
-  .header-nav__subscribe img {
-    opacity: 0.2;
-    width: 20px;
-    cursor: pointer; }
 
 .header-nav__auth {
-  margin-left: 20px; }
+  margin-left: 30px; }
   .header-nav__auth img {
-    opacity: 0.2;
-    width: 20px;
+    opacity: 0.3;
+    width: 15px;
     cursor: pointer; }
   .header-nav__auth span {
-    position: absolute;
-    border-radius: 3px;
-    top: -7px;
-    right: -6px;
-    background: #2f91aa;
-    font-size: 10px;
-    color: #fff;
-    display: block;
-    padding: 1px 3px; }
+    font-size: 15px;
+    font-weight: 600;
+    opacity: 0.3;
+    color: #000; }
+
+.header-nav__profile {
+  margin-top: -8px;
+  display: flex;
+  align-items: center; }
+  .header-nav__profile img {
+    width: 40px;
+    border-radius: 50%; }
 
 /*# sourceMappingURL=style.css.map */
