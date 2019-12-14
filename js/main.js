@@ -27,3 +27,37 @@ $(function() {
 
     var accordion = new Accordion($('.accordion-menu'), false);
 })
+
+
+$(document).click( function(event){
+    if( $(event.target).closest(".profile__content-menu").length )
+        return;
+    $(".profile__content").slideUp("slow");
+    event.stopPropagation();
+});
+$('.hide').click( function() {
+    $(this).siblings(".profile__content-menu").slideToggle("slow");
+    return false;
+});
+
+// document.getElementById('burger').onclick = function() {
+//     document.getElementById('main').classList.add('bg');
+// }
+
+// $(function() {
+//     $('.burger').click(function() {
+//         $('.main').siblings('.main').toggle();
+//         $(this).toggleClass('bg');
+//     });
+// });
+
+$(document).ready(function(){
+    $('.burger').click(function () {
+        $(".navigation").toggleClass('navigation__mobile');
+        $(".navigation__logo").toggleClass('navigation__logo-mobile img');
+        $("a.dropdownlink").toggleClass('dropdownlink-mobile');
+        $(".submenuItems").toggleClass('submenuItems__mobile');
+
+    });
+});
+
