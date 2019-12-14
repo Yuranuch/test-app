@@ -62,3 +62,12 @@ $(document).ready(function(){
     });
 });
 
+$(document).ready(function(){
+    $('.nav__item').click(function () {
+        $(".nav__item").toggleClass('nav__item_active');
+
+
+
+    });
+});
+
