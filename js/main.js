@@ -58,6 +58,7 @@ $(document).ready(function(){
         $("a.dropdownlink").toggleClass('dropdownlink-mobile');
         $(".submenuItems").toggleClass('submenuItems__mobile');
 
+
     });
 });
 
