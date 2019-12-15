@@ -1,7 +1,8 @@
 body {
-  font-family: 'Roboto', 'Roboto-Thin', sans-serif;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   background: #f7fbff;
-  font-size: 14px; }
+  font-size: 14px;
+  height: 100%; }
 
 * {
   padding: 0;
@@ -26,9 +27,11 @@ input:focus {
 
 select {
   height: 30px;
-  width: 170px; }
+  width: 170px;
+  color: grey !important; }
   select option {
-    font-size: 14px; }
+    font-size: 14px;
+    color: grey !important; }
 
 button {
   min-width: 120px;
@@ -48,12 +51,22 @@ button {
     transition: 0.3s; }
 
 table {
-  width: 100%; }
-  table tr {
-    border-bottom: 1px solid #1a7bb9; }
-    table tr td {
-      text-align: center;
-      border-bottom: 1px solid #1a7bb9; }
+  width: 100%;
+  border-collapse: collapse; }
+  table th {
+    padding: 5px 0;
+    border-bottom: 1px solid #cbe4ff; }
+  table td {
+    padding: 3px 10px;
+    text-align: center;
+    border-bottom: 1px solid #cbe4ff; }
+    table td img {
+      padding-top: 2px;
+      width: 15px; }
+  table .first_td {
+    width: 15px !important; }
+  table .second_td {
+    width: 15px !important; }
 
 img {
   width: 100%; }
@@ -80,12 +93,14 @@ a {
     text-decoration: none; }
 
 h2 {
+  margin: 0 -20px;
   color: #000;
-  font-size: 20px;
+  font-size: 16px;
   margin-bottom: 10px;
   border-bottom: 2px solid #dfefff;
   font-weight: 600;
-  line-height: 40px; }
+  line-height: 25px;
+  padding: 0 20px 10px 20px; }
 
 /*----- container -----*/
 .container {
@@ -356,12 +371,14 @@ a.dropdownlink {
 /*----- content -----*/
 .content-wrap {
   width: 100%;
+  height: 90%;
   padding: 20px 20px 20px 20px;
   position: relative; }
 
 .content {
   box-shadow: 0 0 4px 0 #c1d3e4;
   width: 100%;
+  min-height: 100%;
   background: white;
   border-top: 3px solid #dfefff;
   padding: 10px 20px 20px 20px; }
@@ -415,9 +432,8 @@ a.dropdownlink {
     width: 11px; }
   .nav__item:hover {
     box-shadow: 0 2px 5px #bcd0e2 inset; }
-
-.nav__item_active {
-  box-shadow: 0 2px 5px #bcd0e2 inset; }
+  .nav__item:focus {
+    box-shadow: 0 2px 5px #bcd0e2 inset; }
 
 .nav__item_last {
   border: 1px solid #e3e3e3; }
@@ -454,8 +470,18 @@ a.dropdownlink {
     color: #3897d2;
     transition: 0.3s; }
 
+.content-document-header__advanced-search-active {
+  color: #3897d2;
+  transition: 0.3s; }
+
 .advanced-filters__wrap {
-  margin-bottom: 50px; }
+  height: 0;
+  overflow: hidden;
+  transition: 0.5s; }
+
+.advanced-filters__wrap-active {
+  height: 270px;
+  transition: 0.5s; }
 
 .advanced-filters {
   display: flex;

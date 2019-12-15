@@ -62,12 +62,25 @@ $(document).ready(function(){
     });
 });
 
+// $(document).ready(function(){
+//     $('.nav__item').click(function () {
+//         $(this).toggleClass('nav__item_active');
+//     });
+// });
+
 $(document).ready(function(){
-    $('.nav__item').click(function () {
-        $(".nav__item").toggleClass('nav__item_active');
-
-
-
+    $('.content-document-header__advanced-search', ).click(function () {
+        $(".content-document-header__advanced-search").toggleClass('content-document-header__advanced-search-active');
+        $(".advanced-filters__wrap").toggleClass('advanced-filters__wrap-active');
+    });
+});
+$(document).ready(function(){
+    $('.button_left-margin').click(function () {
+        $(".content-document-header__advanced-search").toggleClass('content-document-header__advanced-search-active');
+        $(".advanced-filters__wrap").toggleClass('advanced-filters__wrap-active');
     });
 });
 
+$('.reset').on('click', function() {
+    $(this).closest('form')[0].reset();
+});

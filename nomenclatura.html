@@ -8,6 +8,7 @@
     <title>nomenclatura</title>
     <link href="css/style.css" rel="stylesheet">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap&subset=cyrillic" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
 </head>
 <body>
@@ -21,14 +22,7 @@
                 <li>
 
                     <a class="dropdownlink"><img class="menu__icon" src="./img/icons/log-out_icon.png" alt="">
-                        <span>Начальная</span></a>
-                    <ul class="submenuItems submenuItems_hidden"></ul>
-                </li>
-                <li>
-
-                    <a class="dropdownlink">
-                        <img class="menu__icon" src="./img/icons/log-out_icon.png" alt="">
-                        <span>Маркетинг</span></a>
+                        <span>Начало</span></a>
                     <ul class="submenuItems submenuItems_hidden"></ul>
                 </li>
                 <li>
@@ -36,22 +30,6 @@
                         <img class="menu__icon" src="./img/icons/log-out_icon.png" alt="">
                         <i class="fa fa-quote-left" aria-hidden="true"></i>
                         <span>Покупка</span>
-                        <img src="./img/icons/drop-down.png" class="fa fa-chevron-down" aria-hidden="true"
-                             alt="shevron"/>
-                    </a>
-                    <ul class="submenuItems">
-                        <li><a href="#">Поступление товаров и услуг</a></li>
-                        <li><a href="#">Возврат поставщику</a></li>
-                        <li><a href="#">Отчёт комитенту</a></li>
-                        <li><a href="#">Счёт от поставщика</a></li>
-                        <li><a href="#">Ввод остатков</a></li>
-                    </ul>
-                </li>
-                <li>
-                    <a class="dropdownlink">
-                        <img class="menu__icon" src="./img/icons/log-out_icon.png" alt="">
-                        <i class="fa fa-quote-left" aria-hidden="true"></i>
-                        <span>Продажа</span>
                         <img src="./img/icons/drop-down.png" class="fa fa-chevron-down" aria-hidden="true"
                              alt="shevron"/>
                     </a>
@@ -114,7 +92,7 @@
                 <div class="content-document">
                     <div class="content-document-header">
                         <div class="content-document-header__nav">
-                            <div class="nav__item nav__item_active">
+                            <div class="nav__item">
                                 <img src="./img/icons/create_icon.png" alt="">
                             </div>
                             <div class="nav__item">
@@ -147,7 +125,7 @@
                         </div>
                         <span class="content-document-header__advanced-search">Расширенный поиск</span>
                     </div>
-                    <div class="advanced-filters__wrap">
+                    <form action="" class="advanced-filters__wrap">
                     <div class="advanced-filters">
                         <div class="advanced-filters__left-side">
                             <div class="advanced-filters__row">
@@ -160,11 +138,24 @@
                                 </select>
                                 <input class="row__long-without-button" type="text"/>
                                 <div class="nav__item nav__item_right-button">
-                                    <img src="./img/icons/subscribe_icon.png" alt="">
+                                    <img src="./img/icons/close_icon.png" alt="">
                                 </div>
                             </div>
                             <div class="advanced-filters__row">
-                                <span>Дата</span>
+                                <span>Сумма</span>
+                                <select name="name">
+                                    <option>Равно</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                </select>
+                                <input class="row__long-without-button" type="text"/>
+                                <div class="nav__item nav__item_right-button">
+                                    <img src="./img/icons/close_icon.png" alt="">
+                                </div>
+                            </div>
+                            <div class="advanced-filters__row">
+                                <span>Операция</span>
                                 <select name="name">
                                     <option>Равно</option>
                                     <option>2</option>
@@ -173,11 +164,43 @@
                                 </select>
                                     <input class="row__long-without-button" type="text"/>
                                     <div class="nav__item nav__item_right-button">
-                                        <img src="./img/icons/subscribe_icon.png" alt="">
+                                        ...
                                     </div>
+                                    <div class="nav__item nav__item_right-button">
+                                        <img src="./img/icons/close_icon.png" alt="">
+                                    </div>
+                            </div>
+                            <div class="advanced-filters__row">
+                                <span>Регламент</span>
+                                <select name="name">
+                                    <option>Равно</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                </select>
+                                <input class="row__long-without-button" type="text"/>
+                                <div class="nav__item nav__item_right-button">
+                                    <img src="./img/icons/close_icon.png" alt="">
+                                </div>
                             </div>
                         </div>
                         <div class="advanced-filters__right-side">
+                            <div class="advanced-filters__row">
+                                <span>Автосалон</span>
+                                <select name="name">
+                                    <option>Равно</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                </select>
+                                <input class="row__long-without-button" type="text"/>
+                                <div class="nav__item nav__item_right-button">
+                                    ...
+                                </div>
+                                <div class="nav__item nav__item_right-button">
+                                    <img src="./img/icons/close_icon.png" alt="">
+                                </div>
+                            </div>
                             <div class="advanced-filters__row">
                                 <span>Организация</span>
                                 <select name="name">
@@ -186,7 +209,13 @@
                                     <option>3</option>
                                     <option>4</option>
                                 </select>
-                                <input class="row__long-without-button" placeholder="номер" type="text/">
+                                <input class="row__long-without-button" type="text"/>
+                                <div class="nav__item nav__item_right-button">
+                                    ...
+                                </div>
+                                <div class="nav__item nav__item_right-button">
+                                    <img src="./img/icons/close_icon.png" alt="">
+                                </div>
                             </div>
                             <div class="advanced-filters__row">
                                 <span>Подразделение</span>
@@ -196,23 +225,48 @@
                                     <option>3</option>
                                     <option>4</option>
                                 </select>
-                                <input class="row__long-without-button" placeholder="номер" type="text/">
+                                <input class="row__long-without-button" type="text"/>
+                                <div class="nav__item nav__item_right-button">
+                                    ...
+                                </div>
+                                <div class="nav__item nav__item_right-button">
+                                    <img src="./img/icons/close_icon.png" alt="">
+                                </div>
+                            </div>
+                            <div class="advanced-filters__row">
+                                <span>Ответственный</span>
+                                <select name="name">
+                                    <option>Равно</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                </select>
+                                <input class="row__long-without-button" type="text"/>
+                                <div class="nav__item nav__item_right-button">
+                                    ...
+                                </div>
+                                <div class="nav__item nav__item_right-button">
+                                    <img src="./img/icons/close_icon.png" alt="">
+                                </div>
                             </div>
                         </div>
                     </div>
 
                         <div class="advance-filter__bottom">
                             <button>Применить</button>
-                            <button>Сбросить</button>
+                            <button class="reset">Сбросить</button>
                             <button class="button_left-margin">Закрыть</button>
                         </div>
 
-                    </div>
+                    </form>
+
                     <div class="content-document__data-list">
                         <table>
                             <tr>
-                                <th>Статус</th>
+                                <th></th>
+                                <th></th>
                                 <th>Операция</th>
+                                <th>Номер</th>
                                 <th>Дата</th>
                                 <th>Регл</th>
                                 <th>Контрагент</th>
@@ -220,12 +274,15 @@
                                 <th>Вх.дата</th>
                                 <th>Сумма</th>
                                 <th>Валюта</th>
+                                <th>Автосалон</th>
                                 <th>Организация</th>
                                 <th>Ответственный</th>
                             </tr>
                             <tr>
-                                <td>Статус</td>
-                                <td>Операция</td>
+                                <td class="first_td"><input type="checkbox"></td>
+                                <td class="second_td"><img src="./img/icons/ok_icon.png" alt=""></td>
+                                <td class="third_td">Операция</td>
+                                <td>Номер</td>
                                 <td>Дата</td>
                                 <td>Регл</td>
                                 <td>Контрагент</td>
@@ -233,12 +290,15 @@
                                 <td>Вх.дата</td>
                                 <td>Сумма</td>
                                 <td>Валюта</td>
+                                <td>Автосалон</td>
                                 <td>Организация</td>
                                 <td>Ответственный</td>
                             </tr>
                             <tr>
-                                <td>Статус</td>
+                                <td><input type="checkbox"></td>
+                                <td><img src="./img/icons/minus_icon.png" alt=""></td>
                                 <td>Операция</td>
+                                <td>Номер</td>
                                 <td>Дата</td>
                                 <td>Регл</td>
                                 <td>Контрагент</td>
@@ -246,12 +306,15 @@
                                 <td>Вх.дата</td>
                                 <td>Сумма</td>
                                 <td>Валюта</td>
+                                <td>Автосалон</td>
                                 <td>Организация</td>
                                 <td>Ответственный</td>
                             </tr>
                             <tr>
-                                <td>Статус</td>
+                                <td><input type="checkbox"></td>
+                                <td><img src="./img/icons/false_icon.png" alt=""></td>
                                 <td>Операция</td>
+                                <td>Номер</td>
                                 <td>Дата</td>
                                 <td>Регл</td>
                                 <td>Контрагент</td>
@@ -259,12 +322,15 @@
                                 <td>Вх.дата</td>
                                 <td>Сумма</td>
                                 <td>Валюта</td>
+                                <td>Автосалон</td>
                                 <td>Организация</td>
                                 <td>Ответственный</td>
                             </tr>
                             <tr>
-                                <td>Статус</td>
-                                <td>Операция</td>
+                                <td class="first_td"><input type="checkbox"></td>
+                                <td class="second_td"><img src="./img/icons/ok_icon.png" alt=""></td>
+                                <td class="third_td">Операция</td>
+                                <td>Номер</td>
                                 <td>Дата</td>
                                 <td>Регл</td>
                                 <td>Контрагент</td>
@@ -272,12 +338,15 @@
                                 <td>Вх.дата</td>
                                 <td>Сумма</td>
                                 <td>Валюта</td>
+                                <td>Автосалон</td>
                                 <td>Организация</td>
                                 <td>Ответственный</td>
                             </tr>
                             <tr>
-                                <td>Статус</td>
-                                <td>Операция</td>
+                                <td class="first_td"><input type="checkbox"></td>
+                                <td class="second_td"><img src="./img/icons/ok_icon.png" alt=""></td>
+                                <td class="third_td">Операция</td>
+                                <td>Номер</td>
                                 <td>Дата</td>
                                 <td>Регл</td>
                                 <td>Контрагент</td>
@@ -285,9 +354,11 @@
                                 <td>Вх.дата</td>
                                 <td>Сумма</td>
                                 <td>Валюта</td>
+                                <td>Автосалон</td>
                                 <td>Организация</td>
                                 <td>Ответственный</td>
                             </tr>
+
                         </table>
 
                     </div>
