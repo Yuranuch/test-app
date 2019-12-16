@@ -21,14 +21,7 @@
                 <li>
 
                     <a class="dropdownlink"><img class="menu__icon" src="./img/icons/log-out_icon.png" alt="">
-                        <span>Начальная</span></a>
-                    <ul class="submenuItems submenuItems_hidden"></ul>
-                </li>
-                <li>
-
-                    <a class="dropdownlink">
-                        <img class="menu__icon" src="./img/icons/log-out_icon.png" alt="">
-                        <span>Маркетинг</span></a>
+                        <span>Начало</span></a>
                     <ul class="submenuItems submenuItems_hidden"></ul>
                 </li>
                 <li>
@@ -36,22 +29,6 @@
                         <img class="menu__icon" src="./img/icons/log-out_icon.png" alt="">
                         <i class="fa fa-quote-left" aria-hidden="true"></i>
                         <span>Покупка</span>
-                        <img src="./img/icons/drop-down.png" class="fa fa-chevron-down" aria-hidden="true"
-                             alt="shevron"/>
-                    </a>
-                    <ul class="submenuItems">
-                        <li><a href="#">Поступление товаров и услуг</a></li>
-                        <li><a href="#">Возврат поставщику</a></li>
-                        <li><a href="#">Отчёт комитенту</a></li>
-                        <li><a href="#">Счёт от поставщика</a></li>
-                        <li><a href="#">Ввод остатков</a></li>
-                    </ul>
-                </li>
-                <li>
-                    <a class="dropdownlink">
-                        <img class="menu__icon" src="./img/icons/log-out_icon.png" alt="">
-                        <i class="fa fa-quote-left" aria-hidden="true"></i>
-                        <span>Продажа</span>
                         <img src="./img/icons/drop-down.png" class="fa fa-chevron-down" aria-hidden="true"
                              alt="shevron"/>
                     </a>
@@ -110,36 +87,283 @@
         </div>
         <div class="content-wrap">
             <div class="content">
-                <h2>Поступление товаров</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium dolores eaque
-                    natus veniam voluptatibus! A consectetur cumque est explicabo fugiat id inventore libero
-                    magnam minus numquam rerum ut vitae, voluptatem.
-                </p>
+                <h2>Номенклатура</h2>
+                <div class="content-document">
+                    <div class="content-document-header">
+                        <div class="content-document-header__nav">
+                            <div class="nav__item">
+                                <img src="./img/icons/create_icon.png" alt="">
+                            </div>
+                            <div class="nav__item">
+                                <img src="./img/icons/copy_icon.png" alt="">
+                            </div>
+                            <div class="nav__item">
+                                <img src="./img/icons/edit_icon.png" alt="">
+                            </div>
+                            <div class="nav__item">
+                                <img src="./img/icons/delete_icon.png" alt="">
+                            </div>
+                            <div class="nav__item nav__item_last">
+                                <img src="./img/icons/update_icon.png" alt="">
+                            </div>
+                            <div class="nav__item nav__item_last">
+                                <img src="./img/icons/print_icon.png" alt="">
+                            </div>
+                        </div>
+                        <div class="content-document-header__search">
+                            <input placeholder="Контрагент" type="text"/>
+                            <div class="nav__item nav__item_right-button">
+                                ...
+                            </div>
+                        </div>
+                        <div class="content-document__date">
+                            <input placeholder="13.03.1985" type="date"/>
+                        </div>
+                        <div class="content-document__date">
+                            <input placeholder="13.03.1985" type="date"/>
+                        </div>
+                        <span class="content-document-header__advanced-search">Расширенный поиск</span>
+                    </div>
+                    <form action="" class="advanced-filters__wrap">
+                        <div class="advanced-filters">
+                            <div class="advanced-filters__left-side">
+                                <div class="advanced-filters__row">
+                                    <span>Номер</span>
+                                    <select name="name">
+                                        <option>Равно</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                    </select>
+                                    <input class="row__long-without-button" type="text"/>
+                                    <div class="nav__item nav__item_right-button">
+                                        <img src="./img/icons/close_icon.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="advanced-filters__row">
+                                    <span>Сумма</span>
+                                    <select name="name">
+                                        <option>Равно</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                    </select>
+                                    <input class="row__long-without-button" type="text"/>
+                                    <div class="nav__item nav__item_right-button">
+                                        <img src="./img/icons/close_icon.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="advanced-filters__row">
+                                    <span>Операция</span>
+                                    <select name="name">
+                                        <option>Равно</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                    </select>
+                                    <input class="row__long-without-button" type="text"/>
+                                    <div class="nav__item nav__item_right-button">
+                                        ...
+                                    </div>
+                                    <div class="nav__item nav__item_right-button">
+                                        <img src="./img/icons/close_icon.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="advanced-filters__row">
+                                    <span>Регламент</span>
+                                    <select name="name">
+                                        <option>Равно</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                    </select>
+                                    <input class="row__long-without-button" type="text"/>
+                                    <div class="nav__item nav__item_right-button">
+                                        <img src="./img/icons/close_icon.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="advanced-filters__right-side">
+                                <div class="advanced-filters__row">
+                                    <span>Автосалон</span>
+                                    <select name="name">
+                                        <option>Равно</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                    </select>
+                                    <input class="row__long-without-button" type="text"/>
+                                    <div class="nav__item nav__item_right-button">
+                                        ...
+                                    </div>
+                                    <div class="nav__item nav__item_right-button">
+                                        <img src="./img/icons/close_icon.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="advanced-filters__row">
+                                    <span>Организация</span>
+                                    <select name="name">
+                                        <option>Равно</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                    </select>
+                                    <input class="row__long-without-button" type="text"/>
+                                    <div class="nav__item nav__item_right-button">
+                                        ...
+                                    </div>
+                                    <div class="nav__item nav__item_right-button">
+                                        <img src="./img/icons/close_icon.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="advanced-filters__row">
+                                    <span>Подразделение</span>
+                                    <select name="name">
+                                        <option>Равно</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                    </select>
+                                    <input class="row__long-without-button" type="text"/>
+                                    <div class="nav__item nav__item_right-button">
+                                        ...
+                                    </div>
+                                    <div class="nav__item nav__item_right-button">
+                                        <img src="./img/icons/close_icon.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="advanced-filters__row">
+                                    <span>Ответственный</span>
+                                    <select name="name">
+                                        <option>Равно</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                    </select>
+                                    <input class="row__long-without-button" type="text"/>
+                                    <div class="nav__item nav__item_right-button">
+                                        ...
+                                    </div>
+                                    <div class="nav__item nav__item_right-button">
+                                        <img src="./img/icons/close_icon.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium dolores eaque
-                    natus veniam voluptatibus! A consectetur cumque est explicabo fugiat id inventore libero
-                    magnam minus numquam rerum ut vitae, voluptatem.
-                </p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium dolores eaque
-                    natus veniam voluptatibus! A consectetur cumque est explicabo fugiat id inventore libero
-                    magnam minus numquam rerum ut vitae, voluptatem.
-                </p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium dolores eaque
-                    natus veniam voluptatibus! A consectetur cumque est explicabo fugiat id inventore libero
-                    magnam minus numquam rerum ut vitae, voluptatem.
-                </p>
+                        <div class="advance-filter__bottom">
+                            <button>Применить</button>
+                            <button class="reset">Сбросить</button>
+                            <button class="button_left-margin">Закрыть</button>
+                        </div>
 
+                    </form>
 
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet explicabo fuga illum ipsa.
-                    Distinctio et harum laudantium mollitia officiis perferendis perspiciatis qui quod repellat ut.
-                    Accusantium eveniet illum numquam obcaecati.
-                </p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet explicabo fuga illum ipsa.
-                    Distinctio et harum laudantium mollitia officiis perferendis perspiciatis qui quod repellat ut.
-                    Accusantium eveniet illum numquam obcaecati.
-                </p>
+                    <div class="content-document__data-list">
+                        <table>
+                            <tr>
+                                <th></th>
+                                <th></th>
+                                <th>Операция</th>
+                                <th>Номер</th>
+                                <th>Дата</th>
+                                <th>Регл</th>
+                                <th>Контрагент</th>
+                                <th>Вх.номер</th>
+                                <th>Вх.дата</th>
+                                <th>Сумма</th>
+                                <th>Валюта</th>
+                                <th>Автосалон</th>
+                                <th>Организация</th>
+                                <th>Ответственный</th>
+                            </tr>
+                            <tr>
+                                <td class="first_td"><input type="checkbox"></td>
+                                <td class="second_td"><img src="./img/icons/ok_icon.png" alt=""></td>
+                                <td class="third_td">Операция</td>
+                                <td>Номер</td>
+                                <td>Дата</td>
+                                <td>Регл</td>
+                                <td>Контрагент</td>
+                                <td>Вх.номер</td>
+                                <td>Вх.дата</td>
+                                <td>Сумма</td>
+                                <td>Валюта</td>
+                                <td>Автосалон</td>
+                                <td>Организация</td>
+                                <td>Ответственный</td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox"></td>
+                                <td><img src="./img/icons/minus_icon.png" alt=""></td>
+                                <td>Операция</td>
+                                <td>Номер</td>
+                                <td>Дата</td>
+                                <td>Регл</td>
+                                <td>Контрагент</td>
+                                <td>Вх.номер</td>
+                                <td>Вх.дата</td>
+                                <td>Сумма</td>
+                                <td>Валюта</td>
+                                <td>Автосалон</td>
+                                <td>Организация</td>
+                                <td>Ответственный</td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox"></td>
+                                <td><img src="./img/icons/false_icon.png" alt=""></td>
+                                <td>Операция</td>
+                                <td>Номер</td>
+                                <td>Дата</td>
+                                <td>Регл</td>
+                                <td>Контрагент</td>
+                                <td>Вх.номер</td>
+                                <td>Вх.дата</td>
+                                <td>Сумма</td>
+                                <td>Валюта</td>
+                                <td>Автосалон</td>
+                                <td>Организация</td>
+                                <td>Ответственный</td>
+                            </tr>
+                            <tr>
+                                <td class="first_td"><input type="checkbox"></td>
+                                <td class="second_td"><img src="./img/icons/ok_icon.png" alt=""></td>
+                                <td class="third_td">Операция</td>
+                                <td>Номер</td>
+                                <td>Дата</td>
+                                <td>Регл</td>
+                                <td>Контрагент</td>
+                                <td>Вх.номер</td>
+                                <td>Вх.дата</td>
+                                <td>Сумма</td>
+                                <td>Валюта</td>
+                                <td>Автосалон</td>
+                                <td>Организация</td>
+                                <td>Ответственный</td>
+                            </tr>
+                            <tr>
+                                <td class="first_td"><input type="checkbox"></td>
+                                <td class="second_td"><img src="./img/icons/ok_icon.png" alt=""></td>
+                                <td class="third_td">Операция</td>
+                                <td>Номер</td>
+                                <td>Дата</td>
+                                <td>Регл</td>
+                                <td>Контрагент</td>
+                                <td>Вх.номер</td>
+                                <td>Вх.дата</td>
+                                <td>Сумма</td>
+                                <td>Валюта</td>
+                                <td>Автосалон</td>
+                                <td>Организация</td>
+                                <td>Ответственный</td>
+                            </tr>
+
+                        </table>
+
+                    </div>
+                </div>
+
             </div>
-
         </div>
         <div class="footer">
             <div class="footer__left-side">
