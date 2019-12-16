@@ -8,6 +8,7 @@
     <title>index</title>
     <link href="css/style.css" rel="stylesheet">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap&subset=cyrillic" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
 </head>
 <body>
@@ -18,11 +19,11 @@
         </a>
         <div class="dropdown-menu">
             <ul class="accordion-menu">
-                <li>
-
+                <li class="open">
                     <a href="index.html" class="dropdownlink"><img class="menu__icon" src="./img/icons/log-out_icon.png" alt="">
                         <span>Начало</span></a>
-                    <ul class="submenuItems submenuItems_hidden"></ul>
+                    <ul class="submenuItems submenuItems_hidden">
+                    </ul>
                 </li>
                 <li>
                     <a class="dropdownlink">
@@ -91,77 +92,83 @@
                 <div class="content-document">
                     <div class="content-document-header">
                         <div class="content-document-header__nav">
-                            <div class="nav__item">
+                            <div class="nav__item" id="id_1">
                                 <img src="./img/icons/create_icon.png" alt="">
                             </div>
-                            <div class="nav__item">
+                            <div class="nav__item " id="id_2">
                                 <img src="./img/icons/copy_icon.png" alt="">
                             </div>
-                            <div class="nav__item">
+                            <div class="nav__item" id="id_3">
                                 <img src="./img/icons/edit_icon.png" alt="">
                             </div>
-                            <div class="nav__item">
+                            <div class="nav__item" id="id_4">
                                 <img src="./img/icons/delete_icon.png" alt="">
                             </div>
-                            <div class="nav__item nav__item_last">
+                            <div class="nav__item nav__item_last" id="id_5">
                                 <img src="./img/icons/update_icon.png" alt="">
                             </div>
-                            <div class="nav__item nav__item_last">
+                            <div class="nav__item nav__item_last" id="id_6">
                                 <img src="./img/icons/print_icon.png" alt="">
                             </div>
                         </div>
                         <div class="content-document-header__search">
-                            <input placeholder="Контрагент" type="text"/>
+                            <input id="id_7" placeholder="Контрагент" type="text"/>
                             <div class="nav__item nav__item_right-button">
                                 ...
                             </div>
                         </div>
                         <div class="content-document__date">
-                            <input placeholder="13.03.1985" type="date"/>
+                            <input id="id_8" placeholder="13.03.1985" type="date"/>
                         </div>
                         <div class="content-document__date">
-                            <input placeholder="13.03.1985" type="date"/>
+                            <input id="id_9" placeholder="13.03.1985" type="date"/>
                         </div>
                         <span class="content-document-header__advanced-search">Расширенный поиск</span>
                     </div>
-                    <form action="" class="advanced-filters__wrap">
+                    <div class="advanced-filters__wrap">
                         <div class="advanced-filters">
                             <div class="advanced-filters__left-side">
                                 <div class="advanced-filters__row">
                                     <span>Номер</span>
-                                    <select name="name">
+                                    <select id="id_10" name="name">
                                         <option>Равно</option>
-                                        <option>2</option>
-                                        <option>3</option>
-                                        <option>4</option>
+                                        <option>Не равно</option>
+                                        <option>Больше</option>
+                                        <option>Меньше</option>
+                                        <option>Содержит</option>
+                                        <option>Не содержит</option>
                                     </select>
-                                    <input class="row__long-without-button" type="text"/>
+                                    <input id="id_11" class="row__long-without-button" type="text"/>
                                     <div class="nav__item nav__item_right-button">
                                         <img src="./img/icons/close_icon.png" alt="">
                                     </div>
                                 </div>
                                 <div class="advanced-filters__row">
                                     <span>Сумма</span>
-                                    <select name="name">
+                                    <select id="id_12" name="name">
                                         <option>Равно</option>
-                                        <option>2</option>
-                                        <option>3</option>
-                                        <option>4</option>
+                                        <option>Не равно</option>
+                                        <option>Больше</option>
+                                        <option>Меньше</option>
+                                        <option>Содержит</option>
+                                        <option>Не содержит</option>
                                     </select>
-                                    <input class="row__long-without-button" type="text"/>
+                                    <input id="id_13" class="row__long-without-button" type="text"/>
                                     <div class="nav__item nav__item_right-button">
                                         <img src="./img/icons/close_icon.png" alt="">
                                     </div>
                                 </div>
                                 <div class="advanced-filters__row">
                                     <span>Операция</span>
-                                    <select name="name">
+                                    <select id="id_14" name="name">
                                         <option>Равно</option>
-                                        <option>2</option>
-                                        <option>3</option>
-                                        <option>4</option>
+                                        <option>Не равно</option>
+                                        <option>Больше</option>
+                                        <option>Меньше</option>
+                                        <option>Содержит</option>
+                                        <option>Не содержит</option>
                                     </select>
-                                    <input class="row__long-without-button" type="text"/>
+                                    <input id="id_15" class="row__long-without-button" type="text"/>
                                     <div class="nav__item nav__item_right-button">
                                         ...
                                     </div>
@@ -171,13 +178,15 @@
                                 </div>
                                 <div class="advanced-filters__row">
                                     <span>Регламент</span>
-                                    <select name="name">
+                                    <select id="id_16" name="name">
                                         <option>Равно</option>
-                                        <option>2</option>
-                                        <option>3</option>
-                                        <option>4</option>
+                                        <option>Не равно</option>
+                                        <option>Больше</option>
+                                        <option>Меньше</option>
+                                        <option>Содержит</option>
+                                        <option>Не содержит</option>
                                     </select>
-                                    <input class="row__long-without-button" type="text"/>
+                                    <input id="id_17" class="row__long-without-button" type="text"/>
                                     <div class="nav__item nav__item_right-button">
                                         <img src="./img/icons/close_icon.png" alt="">
                                     </div>
@@ -186,13 +195,15 @@
                             <div class="advanced-filters__right-side">
                                 <div class="advanced-filters__row">
                                     <span>Автосалон</span>
-                                    <select name="name">
+                                    <select id="id_18" name="name">
                                         <option>Равно</option>
-                                        <option>2</option>
-                                        <option>3</option>
-                                        <option>4</option>
+                                        <option>Не равно</option>
+                                        <option>Больше</option>
+                                        <option>Меньше</option>
+                                        <option>Содержит</option>
+                                        <option>Не содержит</option>
                                     </select>
-                                    <input class="row__long-without-button" type="text"/>
+                                    <input id="id_19" class="row__long-without-button" type="text"/>
                                     <div class="nav__item nav__item_right-button">
                                         ...
                                     </div>
@@ -202,13 +213,15 @@
                                 </div>
                                 <div class="advanced-filters__row">
                                     <span>Организация</span>
-                                    <select name="name">
+                                    <select id="id_20" name="name">
                                         <option>Равно</option>
-                                        <option>2</option>
-                                        <option>3</option>
-                                        <option>4</option>
+                                        <option>Не равно</option>
+                                        <option>Больше</option>
+                                        <option>Меньше</option>
+                                        <option>Содержит</option>
+                                        <option>Не содержит</option>
                                     </select>
-                                    <input class="row__long-without-button" type="text"/>
+                                    <input id="id_21" class="row__long-without-button" type="text"/>
                                     <div class="nav__item nav__item_right-button">
                                         ...
                                     </div>
@@ -218,13 +231,15 @@
                                 </div>
                                 <div class="advanced-filters__row">
                                     <span>Подразделение</span>
-                                    <select name="name">
+                                    <select id="id_22" name="name">
                                         <option>Равно</option>
-                                        <option>2</option>
-                                        <option>3</option>
-                                        <option>4</option>
+                                        <option>Не равно</option>
+                                        <option>Больше</option>
+                                        <option>Меньше</option>
+                                        <option>Содержит</option>
+                                        <option>Не содержит</option>
                                     </select>
-                                    <input class="row__long-without-button" type="text"/>
+                                    <input id="id_23" class="row__long-without-button" type="text"/>
                                     <div class="nav__item nav__item_right-button">
                                         ...
                                     </div>
@@ -234,13 +249,15 @@
                                 </div>
                                 <div class="advanced-filters__row">
                                     <span>Ответственный</span>
-                                    <select name="name">
+                                    <select id="id_24" name="name">
                                         <option>Равно</option>
-                                        <option>2</option>
-                                        <option>3</option>
-                                        <option>4</option>
+                                        <option>Не равно</option>
+                                        <option>Больше</option>
+                                        <option>Меньше</option>
+                                        <option>Содержит</option>
+                                        <option>Не содержит</option>
                                     </select>
-                                    <input class="row__long-without-button" type="text"/>
+                                    <input id="id_25" class="row__long-without-button" type="text"/>
                                     <div class="nav__item nav__item_right-button">
                                         ...
                                     </div>
@@ -252,16 +269,16 @@
                         </div>
 
                         <div class="advance-filter__bottom">
-                            <button>Применить</button>
-                            <button class="reset">Сбросить</button>
-                            <button class="button_left-margin">Закрыть</button>
+                            <button id="id_26">Применить</button>
+                            <button id="id_27" class="reset">Сбросить</button>
+                            <button id="id_28" class="button_left-margin">Закрыть</button>
                         </div>
 
-                    </form>
+                    </div>
 
                     <div class="content-document__data-list">
                         <table>
-                            <tr>
+                            <tr class="first-row">
                                 <th></th>
                                 <th></th>
                                 <th>Операция</th>

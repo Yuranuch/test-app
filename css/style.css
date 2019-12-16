@@ -49,10 +49,18 @@ button {
   button:hover {
     box-shadow: 0 2px 5px #bcd0e2 inset;
     transition: 0.3s; }
+  button:active {
+    box-shadow: 0 2px 5px #000 inset; }
 
 table {
   width: 100%;
   border-collapse: collapse; }
+  table tr:hover {
+    background: #cbe4ff;
+    cursor: pointer; }
+  table tr.first-row {
+    background: none;
+    cursor: auto; }
   table th {
     padding: 5px 0;
     border-bottom: 1px solid #cbe4ff; }
@@ -121,13 +129,13 @@ h2 {
   width: 265px;
   box-shadow: 0 0 10px 0 #c1d3e4;
   padding: 0 0 30px 0;
-  transition: 1s; }
+  transition: 0.5s; }
 
 .navigation__logo {
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: 1s;
+  transition: 0.5s;
   padding: 15px 0 0 0; }
   .navigation__logo img {
     width: 140px;
@@ -197,6 +205,10 @@ a.dropdownlink {
   .submenuItems a:hover {
     background-color: #fff;
     color: #347fc3; }
+
+li a.submenuItems-active {
+  background-color: #fff;
+  color: #347fc3; }
 
 .submenuItems_hidden {
   height: 0 !important; }
@@ -371,7 +383,7 @@ a.dropdownlink {
 /*----- content -----*/
 .content-wrap {
   width: 100%;
-  height: 90%;
+  height: 92%;
   padding: 20px 20px 20px 20px;
   position: relative; }
 
@@ -432,8 +444,8 @@ a.dropdownlink {
     width: 11px; }
   .nav__item:hover {
     box-shadow: 0 2px 5px #bcd0e2 inset; }
-  .nav__item:focus {
-    box-shadow: 0 2px 5px #bcd0e2 inset; }
+  .nav__item:active {
+    box-shadow: 0 2px 5px #000 inset; }
 
 .nav__item_last {
   border: 1px solid #e3e3e3; }
@@ -525,5 +537,7 @@ a.dropdownlink {
 
 .button_left-margin {
   margin: 0 0 0 70px !important; }
+
+/*----- modal-windows -----*/
 
 /*# sourceMappingURL=style.css.map */

@@ -45,11 +45,24 @@ button {
     box-shadow: 0 2px 5px #bcd0e2 inset;
     transition: 0.3s;
   }
+  &:active {
+    box-shadow: 0 2px 5px #000 inset;
+  }
 }
 
 table {
   width: 100%;
   border-collapse: collapse;
+  tr {
+    &:hover {
+      background: #cbe4ff;
+      cursor: pointer;
+    }
+  }
+  tr.first-row {
+    background: none;
+    cursor: auto;
+  }
   th {
     padding: 5px 0;
     border-bottom: 1px solid #cbe4ff;
@@ -59,6 +72,7 @@ table {
     padding: 3px 10px;
     text-align: center;
     border-bottom: 1px solid #cbe4ff;
+
     img {
       padding-top: 2px;
       width: 15px;
@@ -101,14 +115,14 @@ h2 { margin: 0 -20px; color: #000; font-size: 16px; margin-bottom: 10px; border-
   width: 265px;
   box-shadow: 0 0 10px 0 #c1d3e4;
   padding: 0 0 30px 0;
-  transition: 1s;
+  transition: 0.5s;
 }
 
 .navigation__logo {
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: 1s;
+  transition: 0.5s;
   padding: 15px 0 0 0;
   img {
     width: 140px;
@@ -195,6 +209,10 @@ a.dropdownlink {
     background-color: #fff;
     color: #347fc3;
   }
+}
+li a.submenuItems-active {
+  background-color: #fff;
+  color: #347fc3;
 }
 
 .submenuItems_hidden {
@@ -408,7 +426,7 @@ a.dropdownlink {
 
 .content-wrap {
   width: 100%;
-  height: 90%;
+  height: 92%;
   padding: 20px 20px 20px 20px;
   position: relative;
 
@@ -484,8 +502,8 @@ a.dropdownlink {
   &:hover {
     box-shadow: 0 2px 5px #bcd0e2 inset;
   }
-  &:focus {
-    box-shadow: 0 2px 5px #bcd0e2 inset;
+  &:active {
+    box-shadow: 0 2px 5px #000 inset;
   }
 }
 //.nav__item_active {
@@ -596,3 +614,6 @@ a.dropdownlink {
 .button_left-margin {
   margin: 0 0 0 70px !important;
 }
+
+/*----- modal-windows -----*/
+
