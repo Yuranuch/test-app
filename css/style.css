@@ -22,7 +22,8 @@ input {
   width: 100%;
   font-size: 14px;
   border-radius: 1px;
-  height: 28px;
+  height: 30px;
+  line-height: 30px;
   padding: 0 10px;
   box-sizing: border-box; }
 
@@ -75,7 +76,7 @@ table {
     border-bottom: 1px solid #cbe4ff; }
     table td img {
       padding-top: 2px;
-      width: 15px; }
+      width: 20px; }
 
 .first_td {
   width: 15px !important; }
@@ -92,7 +93,7 @@ table {
   border-bottom: 1px solid #cbe4ff; }
   .table_td-align-left td img {
     padding-top: 2px;
-    width: 15px; }
+    width: 20px; }
 
 img {
   width: 100%; }
@@ -133,9 +134,9 @@ h2 {
 
 h2 img {
   position: absolute;
-  width: 12px;
+  width: 20px;
   right: 20px;
-  top: 10px; }
+  top: 5px; }
 
 /*----- container -----*/
 .container {
@@ -320,7 +321,7 @@ li a.submenuItems-active {
   .header-nav__mail span {
     position: absolute;
     border-radius: 3px;
-    top: -7px;
+    top: -8px;
     right: -6px;
     background: #fec22b;
     font-size: 10px;
@@ -334,13 +335,13 @@ li a.submenuItems-active {
   position: relative; }
   .header-nav__subscribe img {
     opacity: 0.3;
-    width: 16px;
+    width: 20px;
     cursor: pointer; }
   .header-nav__subscribe span {
     position: absolute;
     border-radius: 3px;
     top: -7px;
-    right: -6px;
+    right: -4px;
     background: #2f91aa;
     font-size: 10px;
     color: #fff;
@@ -476,7 +477,7 @@ li a.submenuItems-active {
   justify-content: center;
   cursor: pointer; }
   .nav__item img {
-    width: 11px; }
+    width: 20px; }
   .nav__item:hover {
     box-shadow: 0 2px 5px #bcd0e2 inset; }
   .nav__item:active {
