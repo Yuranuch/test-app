@@ -12,6 +12,156 @@
     <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
 </head>
 <body>
+<div class="modal_opacity-bg">
+    <div class="modal_kontragent">
+        <h2>Контрагент <a id="close-modal" href="#"><img src="./img/icons/close_icon.png" alt=""></a></h2>
+        <div class="content-document-header">
+            <div class="content-document-header__nav">
+                <div class="nav__item">
+                    <img src="./img/icons/create_icon.png" alt="">
+                </div>
+                <div class="nav__item ">
+                    <img src="./img/icons/copy_icon.png" alt="">
+                </div>
+                <div class="nav__item">
+                    <img src="./img/icons/edit_icon.png" alt="">
+                </div>
+                <div class="nav__item">
+                    <img src="./img/icons/delete_icon.png" alt="">
+                </div>
+                <div class="nav__item nav__item_last">
+                    <img src="./img/icons/update_icon.png" alt="">
+                </div>
+                <div class="nav__item nav__item_last">
+                    <img src="./img/icons/print_icon.png" alt="">
+                </div>
+            </div>
+            <span id="advanced-search">Расширенный поиск</span>
+        </div>
+        <div id="advanced-filters__wrap_modal" >
+            <div class="advanced-filters">
+                <div class="advanced-filters__left-side_long-width">
+                    <div class="advanced-filters__row">
+                        <span>Номер</span>
+                        <select name="name">
+                            <option>Равно</option>
+                            <option>Не равно</option>
+                            <option>Больше</option>
+                            <option>Меньше</option>
+                            <option>Содержит</option>
+                            <option>Не содержит</option>
+                        </select>
+                        <input class="row__long-without-button" type="text"/>
+                        <div class="nav__item nav__item_right-button">
+                            <img src="./img/icons/close_icon.png" alt="">
+                        </div>
+                    </div>
+                    <div class="advanced-filters__row">
+                        <span>Сумма</span>
+                        <select name="name">
+                            <option>Равно</option>
+                            <option>Не равно</option>
+                            <option>Больше</option>
+                            <option>Меньше</option>
+                            <option>Содержит</option>
+                            <option>Не содержит</option>
+                        </select>
+                        <input class="row__long-without-button" type="text"/>
+                        <div class="nav__item nav__item_right-button">
+                            <img src="./img/icons/close_icon.png" alt="">
+                        </div>
+                    </div>
+                    <div class="advanced-filters__row">
+                        <span>Операция</span>
+                        <select name="name">
+                            <option>Равно</option>
+                            <option>Не равно</option>
+                            <option>Больше</option>
+                            <option>Меньше</option>
+                            <option>Содержит</option>
+                            <option>Не содержит</option>
+                        </select>
+                        <input class="row__long-without-button" type="text"/>
+                        <div class="nav__item nav__item_right-button">
+                            ...
+                        </div>
+                        <div class="nav__item nav__item_right-button">
+                            <img src="./img/icons/close_icon.png" alt="">
+                        </div>
+                    </div>
+                    <div class="advanced-filters__row">
+                        <span>Регламент</span>
+                        <select name="name">
+                            <option>Равно</option>
+                            <option>Не равно</option>
+                            <option>Больше</option>
+                            <option>Меньше</option>
+                            <option>Содержит</option>
+                            <option>Не содержит</option>
+                        </select>
+                        <input class="row__long-without-button" type="text"/>
+                        <div class="nav__item nav__item_right-button">
+                            <img src="./img/icons/close_icon.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="advance-filter__bottom">
+                <button>Применить</button>
+                <button class="reset">Сбросить</button>
+                <button id="button_left-margin_modal">Закрыть</button>
+            </div>
+        </div>
+        <div class="content-document__data-list">
+            <table class="table_td-align-left">
+                <tr class="first-row">
+                    <th></th>
+                    <th></th>
+                    <th>Наименование</th>
+                    <th>ИНН</th>
+                    <th>Контакты</th>
+                </tr>
+                <tr>
+                    <td class="first_td"><input type="checkbox"></td>
+                    <td class="second_td"><img src="./img/icons/ok_icon.png" alt=""></td>
+                    <td class="third_td">Операция</td>
+                    <td>Номер</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox"></td>
+                    <td><img src="./img/icons/minus_icon.png" alt=""></td>
+                    <td class="third_td">Операция</td>
+                    <td>Номер</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox"></td>
+                    <td><img src="./img/icons/false_icon.png" alt=""></td>
+                    <td class="third_td">Операция</td>
+                    <td>Номер</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="first_td"><input type="checkbox"></td>
+                    <td class="second_td"><img src="./img/icons/ok_icon.png" alt=""></td>
+                    <td class="third_td">Операция</td>
+                    <td>Номер</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="first_td"><input type="checkbox"></td>
+                    <td class="second_td"><img src="./img/icons/ok_icon.png" alt=""></td>
+                    <td class="third_td">Операция</td>
+                    <td>Номер</td>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+
 <div class="container">
     <div class="navigation">
         <a href="#" class="navigation__logo">
@@ -113,8 +263,8 @@
                             </div>
                         </div>
                         <div class="content-document-header__search">
-                            <input id="id_7" placeholder="Контрагент" type="text"/>
-                            <div class="nav__item nav__item_right-button">
+                            <input placeholder="Контрагент" type="text"/>
+                            <div id="id_30" class="nav__item nav__item_right-button">
                                 ...
                             </div>
                         </div>
