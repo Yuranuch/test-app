@@ -15,6 +15,7 @@ input {
   border-radius: 1px;
   height: 28px;
   padding: 0 10px;
+  box-sizing: border-box;
 }
 input:focus {
     border-color: #3897d2;
@@ -108,7 +109,7 @@ table {
 img { width: 100%; }
 div, a { box-sizing: border-box;}
 p { color: #000; font-size: 15px; font-weight: 300; line-height: 22px; padding-bottom: 15px;}
-ul { list-style: none; }
+ul { list-style: none; padding: 0; margin: 0}
 a { font-size: 13px; color: #4673ab; font-weight: 300; text-decoration: none; &:hover { text-decoration: none; }}
 h2 { position:relative; margin: 0 -20px; color: #000; font-size: 16px; margin-bottom: 10px; border-bottom: 2px solid #dfefff; font-weight: 600; line-height: 25px; padding: 0 20px 10px 20px; }
 h2 {
@@ -715,10 +716,42 @@ li a.submenuItems-active {
   height: 100%;
   max-height: 100%;
   overflow: auto;
+  background: #f7fbff;
 }
 .modal_registration {
   margin: 5% auto 0 auto;
-  opacity: 1;
   transition: 0.5s;
+  width: 300px;
+  height: auto !important;
+}
+
+.auth {
+  li {
+    margin-top: 15px;
+  }
+}
+
+.auth-button {
+  width: 300px;
+  color: white;
+  background: #3897d2;
+  box-shadow: none;
+  border: none;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+  transition: 0.2s;
+  &:hover {
+    background: #3182b4;
+    box-shadow: none;
+  }
+  &:focus {
+    box-shadow: none;
+    transition: 0.2s;
+  }
+  &:active {
+    background: #3182b4;
+    box-shadow: 0 2px 5px #000 inset;
+  }
 }
 

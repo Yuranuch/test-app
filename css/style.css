@@ -23,7 +23,8 @@ input {
   font-size: 14px;
   border-radius: 1px;
   height: 28px;
-  padding: 0 10px; }
+  padding: 0 10px;
+  box-sizing: border-box; }
 
 input:focus {
   border-color: #3897d2;
@@ -107,7 +108,9 @@ p {
   padding-bottom: 15px; }
 
 ul {
-  list-style: none; }
+  list-style: none;
+  padding: 0;
+  margin: 0; }
 
 a {
   font-size: 13px;
@@ -627,11 +630,36 @@ li a.submenuItems-active {
 .modal_opacity-bg-registration {
   height: 100%;
   max-height: 100%;
-  overflow: auto; }
+  overflow: auto;
+  background: #f7fbff; }
 
 .modal_registration {
   margin: 5% auto 0 auto;
-  opacity: 1;
-  transition: 0.5s; }
+  transition: 0.5s;
+  width: 300px;
+  height: auto !important; }
+
+.auth li {
+  margin-top: 15px; }
+
+.auth-button {
+  width: 300px;
+  color: white;
+  background: #3897d2;
+  box-shadow: none;
+  border: none;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+  transition: 0.2s; }
+  .auth-button:hover {
+    background: #3182b4;
+    box-shadow: none; }
+  .auth-button:focus {
+    box-shadow: none;
+    transition: 0.2s; }
+  .auth-button:active {
+    background: #3182b4;
+    box-shadow: 0 2px 5px #000 inset; }
 
 /*# sourceMappingURL=style.css.map */
