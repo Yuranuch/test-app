@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2468535f-3c15-4b8c-aed9-6bebae359ff2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../../.idea/a1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../.idea/watcherTasks.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../adminisrirovanie.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../css/.sass-cache/19ebf5e55d5edd77034fd2fe1f319cadcf383e31/style.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../css/.sass-cache/36b1714362077d70d71e51bd19e1faafeef41f44/style.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../css/.sass-cache/46b5c15efaa4bc2113f2991cf6318f0caad7acc2/style.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../css/.sass-cache/60c0b858e85c5b9493e76e4c12da1382be393f93/style.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../css/.sass-cache/bcf72861168cf95ae8347b8e99b9c0807fd63f33/adaptive.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../css/.sass-cache/bcf72861168cf95ae8347b8e99b9c0807fd63f33/style.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../css/.sass-cache/d65ba55ff29759be4d3d468f9e302fa5161a7a83/style.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../css/.sass-cache/d9e7d89ac972c5fa454d721ab980a10d52da0e4f/style.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../css/style.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../css/style.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../img/icons/close_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../img/icons/copy_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../img/icons/create_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../img/icons/delete_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../img/icons/drop-down.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../img/icons/edit_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../img/icons/false_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../img/icons/folder-closed_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../img/icons/folder-open_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../img/icons/log-out_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../img/icons/logo-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../img/icons/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../img/icons/mail-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../img/icons/minus_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../img/icons/ok_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../img/icons/print_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../img/icons/start-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../img/icons/subscribe_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../img/icons/update_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../img/icons/Для фильтров.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../img/icons/Монтажная область 11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../img/icons/Поиск.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../img/icons/Справочник.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../img/profile_small.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../modal_kontragent.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../postuplenie_tovarov.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../registration.html" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../" />
+  </component>
+  <component name="ProjectId" id="1lTRCkgW3Oplg3HzNXIpZcOcw2h" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\projects\Vosstanie\reborn-project\my-social\src" />
+      <recent name="G:\projects\Vosstanie\reborn-project\my-social\src\FirstPage" />
+      <recent name="G:\projects\Vosstanie\reborn-project\my-social\src\Tecnologies" />
+      <recent name="G:\projects\Vosstanie\reborn-project\my-social\src\Profile" />
+      <recent name="G:\projects\Vosstanie\reborn-project\my-social\src\Header" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\projects\Vosstanie\reborn-project\my-social\src\Tecnologies" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2468535f-3c15-4b8c-aed9-6bebae359ff2" name="Default Changelist" comment="" />
+      <created>1607618969368</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1607618969368</updated>
+      <workItem from="1607619010628" duration="3409000" />
+      <workItem from="1607954978574" duration="9196000" />
+      <workItem from="1607966311212" duration="2047000" />
+      <workItem from="1608138323370" duration="3278000" />
+      <workItem from="1608366529063" duration="7190000" />
+      <workItem from="1608374216191" duration="3119000" />
+      <workItem from="1609176823827" duration="3342000" />
+      <workItem from="1609181779040" duration="151000" />
+      <workItem from="1609263588780" duration="71000" />
+      <workItem from="1609265965027" duration="19000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
