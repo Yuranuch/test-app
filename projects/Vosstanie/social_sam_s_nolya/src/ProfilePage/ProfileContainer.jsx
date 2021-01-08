@@ -1,26 +1,42 @@
 import React from 'react';
 import style from "./ProfilePage.module.css"
 import ProfilePage from "./ProfilePage";
+import * as axios from "axios";
 
-const ProfileContainer = (props) => {
-    let changePostText = (e) => {
-        let newPostText = e.currentTarget.value
-        props.onChangePostText(newPostText)
+class ProfileContainer extends React.Component {
+
+    componentDidMount() {
+        //this.props.toggleIsFetching(true)
+        axios.get(`https://social-network.samuraijs.com/api/1.0/profile/2`)
+            .then(response => {
+                debugger
+                this.props.setProfile(response.data)
+
+                //this.props.toggleIsFetching(false)
+            })
     }
-    let addPostClick = () => {
 
-        let newPostText = props.newPostText
-        let newPost = {id: 7, postText: newPostText, likes: 5}
-        props.onAddPostClick(newPost)
+
+    render() {
+        let changePostText = (e) => {
+            let newPostText = e.currentTarget.value
+            this.props.onChangePostText(newPostText)
+        }
+        let addPostClick = () => {
+
+            let newPostText = this.props.newPostText
+            let newPost = {id: 7, postText: newPostText, likes: 5}
+            this.props.onAddPostClick(newPost)
+        }
+
+        return (
+
+            <div className={style.profile}>
+                <ProfilePage {...this.props} changePostText={changePostText} addPostClick={addPostClick}/>
+            </div>
+        )
+
     }
-
-    return (
-
-        <div className={style.profile}>
-            <ProfilePage {...props} changePostText={changePostText} addPostClick={addPostClick} />
-        </div>
-    )
-
 }
 
 
